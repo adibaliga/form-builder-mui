@@ -38,3 +38,11 @@
 .element-box .text {
   font-size: 12px;
 }
+
+.dropped-item-container {
+  border-radius: 10px; /* Rounded corners for the dropped item container */
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}

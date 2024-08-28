@@ -9,7 +9,7 @@ interface ListProps {
 const IconList = ({ id, icon, type }: ListProps) => {
   const [{ isDragging }, drag] = useDrag(() => ({
     type: "element",
-    item: { id },
+    item: { id, type },
     collect: (monitor) => ({
       isDragging: !!monitor.isDragging(),
     }),
